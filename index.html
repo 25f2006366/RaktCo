@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-<title>RaktCo | Blood Help</title>
+<title>Rakt — Blood Help</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@ main,.sticky{position:relative;z-index:1}
 <div id="landing" class="fixed inset-0 z-[60] overflow-y-auto" style="background:linear-gradient(180deg,#FBF3EC 0%,#FAF5F0 55%,#F6E9E2 100%)">
 <div class="min-h-full flex flex-col items-center justify-center px-5 py-10 max-w-xl mx-auto text-center">
 <div class="w-16 h-16 grid place-items-center text-3xl text-white rounded-3xl" style="background:linear-gradient(160deg,#C8102E,#7A0F24);box-shadow:0 20px 44px -14px rgba(200,16,46,.6)">🩸</div>
-<div class="mono text-[11px] font-extrabold tracking-widest mt-4" style="color:#A3162E">RAKTCO • BLOOD HELP</div>
+<div class="mono text-[11px] font-extrabold tracking-widest mt-4" style="color:#A3162E">RAKT • BLOOD HELP</div>
 <h1 class="display font-bold mt-2" style="font-size:clamp(34px,7vw,52px);line-height:1.02;color:#2A1215">One tap can<br>save a life.</h1>
 <p class="mt-2 font-semibold" style="color:#7A5A5E">Free • No app needed</p>
 <button onclick="chooseRole('need')" class="w-full mt-7 rounded-3xl p-5 text-left text-white" style="background:linear-gradient(150deg,#C8102E,#7A0F24);box-shadow:0 24px 54px -18px rgba(200,16,46,.65)">
@@ -106,7 +106,7 @@ main,.sticky{position:relative;z-index:1}
 <div class="text-white sticky top-0 z-40" style="background:rgba(61,10,22,.96);backdrop-filter:blur(12px)">
 <div class="max-w-7xl mx-auto px-4 py-2.5 flex items-center gap-2.5">
 <div onclick="goLanding()" title="Home" style="cursor:pointer" class="w-9 h-9 grid place-items-center text-lg rounded-xl" ><span class="w-9 h-9 grid place-items-center text-lg bg-[#E11D48] border-2 border-white rounded-xl">🩸</span></div>
-<div><div class="font-extrabold leading-none">RaktCo • Blood Help</div><div class="mono text-[10px] text-white/60">⏱ <span id="clock" class="tick">00:00</span> <span id="liveBadge" class="hidden" style="color:#E7C66B">● LIVE</span></div></div>
+<div><div class="font-extrabold leading-none">Rakt • Blood Help</div><div class="mono text-[10px] text-white/60">⏱ <span id="clock" class="tick">00:00</span> <span id="liveBadge" class="hidden" style="color:#E7C66B">● LIVE</span></div></div>
 <div class="flex-1"></div>
 <div class="flex bg-white/10 rounded-full p-1 gap-1">
 <button id="tabNeed" onclick="nav('need')" class="text-[13px] font-extrabold px-4 py-2.5 rounded-full bg-white text-black">Need</button>
@@ -341,7 +341,7 @@ main,.sticky{position:relative;z-index:1}
 
 <div id="certModal" class="hidden fixed inset-0 z-50 modal-bg grid place-items-center p-4">
 <div class="card p-6 max-w-sm w-full text-center pop">
-<div class="mono text-[10px] font-extrabold tracking-widest" style="color:#A3162E">RAKTCO • LIFESAVER CERTIFICATE</div>
+<div class="mono text-[10px] font-extrabold tracking-widest" style="color:#A3162E">RAKT • LIFESAVER CERTIFICATE</div>
 <div class="display font-bold text-[24px] mt-1">Thank you, <span id="certNames"></span> 🩸</div>
 <div class="mono text-[11px] mt-2" style="color:#7A5A5E" id="certMeta"></div>
 <div class="flex gap-2 mt-4"><button onclick="window.print()" class="btn btn-gold" style="flex:1">PRINT</button><button onclick="document.getElementById('certModal').classList.add('hidden')" class="btn" style="flex:1">CLOSE</button></div>
